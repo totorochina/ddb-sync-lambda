@@ -1,0 +1,43 @@
+{
+"Records": [
+{
+"eventID": "880dff58ebad9ab4b164ba6d63e96d92", 
+"eventVersion": "1.1", 
+"dynamodb": {
+"SequenceNumber": "3270900000000001940388956", 
+"Keys": {
+"recordId": {
+"N": "3"
+}
+}, 
+"SizeBytes": 70, 
+"NewImage": {
+"name": {
+"S": "ccc"
+}, 
+"gold": {
+"N": "110"
+}, 
+"level": {
+"N": "3"
+}, 
+"recordId": {
+"N": "3"
+}, 
+"timestamp": {
+"N": "1541990916"
+}, 
+"role": {
+"S": "freelancer"
+}
+}, 
+"ApproximateCreationDateTime": 1541990940.0, 
+"StreamViewType": "NEW_IMAGE"
+}, 
+"awsRegion": "cn-north-1", 
+"eventName": "INSERT", 
+"eventSourceARN": "arn:aws-cn:dynamodb:cn-north-1:741251161495:table/ddb_stream_test/stream/2018-11-11T09:16:30.755", 
+"eventSource": "aws:dynamodb"
+}
+]
+}

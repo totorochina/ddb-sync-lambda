@@ -1,0 +1,43 @@
+{
+"Records": [
+{
+"eventID": "e9633e26e087354dd7a8152176ddc640", 
+"eventVersion": "1.1", 
+"dynamodb": {
+"SequenceNumber": "1400000000000558366153", 
+"Keys": {
+"recordId": {
+"N": "0"
+}
+}, 
+"SizeBytes": 66, 
+"NewImage": {
+"name": {
+"S": "aaa"
+}, 
+"gold": {
+"N": "1248"
+}, 
+"level": {
+"N": "10"
+}, 
+"recordId": {
+"N": "0"
+}, 
+"timestamp": {
+"N": "1541929395"
+}, 
+"role": {
+"S": "engineer"
+}
+}, 
+"ApproximateCreationDateTime": 1541929380.0, 
+"StreamViewType": "NEW_IMAGE"
+}, 
+"awsRegion": "cn-north-1", 
+"eventName": "MODIFY", 
+"eventSourceARN": "arn:aws-cn:dynamodb:cn-north-1:741251161495:table/ddb_stream_test/stream/2018-11-11T09:16:30.755", 
+"eventSource": "aws:dynamodb"
+}
+]
+}
